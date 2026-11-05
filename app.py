@@ -3,7 +3,7 @@ st.title("PaaS bulutli ilovasi")
 ism = st.text_input("Ismingizni kiriting")
 guruh = st.text_input("Guruhingizni kiriting")
 if st.button("Natijani ko'rsatish"):
- if ism.strip() and guruh.strip():
+if ism.strip() and guruh.strip():
  st.success(f"Salom, {ism}!")
  st.write(f"Guruhingiz: {guruh}")
  else:
