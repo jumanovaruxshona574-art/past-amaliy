@@ -9,7 +9,7 @@ guruh = st.text_input("Guruhingizni kiriting")
 
 if st.button("Natijani ko'rsatish"):
  if ism.strip() and guruh.strip():
- st.success(f"Salom, {ism}!")
- st.write(f"Guruhingiz: {guruh}")
+  st.success(f"Salom, {ism}!")
+  st.write(f"Guruhingiz: {guruh}")
 else:
  st.warning("Barcha maydonlarni to'ldiring")
